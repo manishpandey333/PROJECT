@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style: none;
+    background-color: #ffd5a8;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f9f9fb;
+    margin: 20px;
+}
+
+/* Navbar Start */
+
+.navbar{
+    padding: 16px;
+    background-color: #ffd5a8;
+}
+
+.navbar nav{
+    position: relative;
+    display: flex;
+    max-width: (100%);
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+}
+
+.logo img{
+    width: 20%;
+    
+}
+
+.links{
+    display: flex;
+}
+
+.links li{
+    list-style: none;
+    
+}
+
+.links li a{
+    color: #080707;
+    font-size: 30px;
+    padding: 20px ;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+}
+
+.links li a:hover{
+    background-color: white;
+    color: black;
+}
+
+form {
+    display: flex;
+}
+
+form input{
+    padding: 10px;
+    background-color: gainsboro;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: #ffd5a8;
+    max-width: max-content;
+}
+
+.input_button{
+    border: 2px solid #ffd5a8;
+    background-color: #ffd5a8;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+/* Navbar End */
+
+.img img{
+    width: 100%;
+}
+
+.home_new{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    padding: 20px;
+    width: 50%;
+    justify-content: center;
+}
+
+.home-content h1{
+    color: #080707;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.home-content p{
+    color: #080707;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card-content{
+    /* background-color: pink; */
+    font-size: larger;
+    display: flex;
+}
+
+.card-content .row{
+    padding: 20px;
+    margin: 20px;
+    /* background-color: yellow; */
+}
+
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.offer h2{
+    font-size: 30px;
+}
+
+
+/* new code for home  */
+
+
+
+
